@@ -65,6 +65,7 @@ STM32429 board as desired by the problem statement.
 
 
 #Conclusion
+
 The neural network deployed on the STM32F429 board effectively processed the
 biochemical data to predict liver disorders, showing that even low-power
 microcontrollers can host intelligent algorithms capable of performing meaningful
