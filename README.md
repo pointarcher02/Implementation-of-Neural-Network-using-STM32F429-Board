@@ -1,11 +1,13 @@
-# Objective
+# Implementation of Neural Network on STM32F429 Board
+
+## Objective
 
 The main objective of the present work is to design and implement a light type of neural
 network for the STM32F429 microcontroller board. It involves the effective development
 of a neural network model, which will work under resource-constraint typical problems
 for an embedded system, e.g., limited memory and computation power.
 
-# Dataset
+## Dataset
 
 We have used the BUPA Liver disorder dataset , which is a lightweight dataset with
 fewer features. The BUPA liver disorder dataset, commonly referred to as the BUPA
@@ -13,7 +15,7 @@ dataset, is a well-known dataset used in the field of medical machine learning t
 liver disorders. The number of features are 6 while the number of labels are 2 (which is
 liver disorder or not) while the number of samples are 345.
 
-# Analysis
+## Analysis
 
 We further analyze the results and get to know that for one particular set of
 input X_train[0], we are getting output as 0.707610 from the C program while for
@@ -68,7 +70,7 @@ void forward_pass(double *input, double *weights, double *biases, double *output
 ![image](https://github.com/pointarcher02/Implementation-of-Neural-Network-using-STM32F429-Board/assets/120496303/3824d50b-ab1d-49b4-8351-e71c8a8d8faa)
 
 
-## STM32 Board implementation
+# STM32 Board implementation
 
 Step 1: We initially load the keil micro vision software and paste our C code in the C
 file.
@@ -107,7 +109,7 @@ Therefore our Neural Network has been successfully implemented on the
 STM32429 board as desired by the problem statement.
 
 
-# Conclusion
+## Conclusion
 
 The neural network deployed on the STM32F429 board effectively processed the
 biochemical data to predict liver disorders, showing that even low-power
